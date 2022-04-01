@@ -1,0 +1,101 @@
+
+
+@font-face {
+    font-family: "Manrope";
+    src: local("Manrope"),
+      url("../public/font/Manrope-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+  .header_section {
+    padding: 10px 0;
+  }
+  .navbar {
+    display: flex;
+    justify-content: end;
+  }
+  .header_nav {
+      margin-right: 20px;
+  }
+  .navlink {
+   color: #1E1B1B !important;
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 28px;
+    padding: 0 20px !important;
+  }
+  /* .navlink:hover{
+    color: white !important;
+  } */
+  .contact_btn {
+    font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 28px;
+      color: #FFFFFF;
+      background-color: transparent;
+      border: 2px solid rgba(244, 246, 252, 0.2);
+      box-sizing: border-box;
+      border-radius: 41px;
+      padding: 12px 37px;
+  }
+  .menu_icon {
+      background-color: white !important;
+  }
+  /* .active{
+      color: white !important;
+    } */
+    .leftmenu {
+      background-color: black;
+  }
+  .Assistance {
+    display: grid;
+}
+.Name {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1E1B1B;
+    opacity: 0.7;
+}
+.NumberText {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    color: #1E1B1B;
+}
+.CallImage {
+    background: #61C4A1;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+    
+  /* Responsive start  */
+  @media only screen and (max-width: 1199px) {
+      
+  }
+  @media only screen and (max-width: 992px) {
+      .navbar{justify-content: start; display: block;}
+      .navlink{padding: 5px 0px !important; color: white !important;}
+      .contact_btn {margin-top: 15px;}
+
+  }
+  @media only screen and (max-width: 768px) {
+      
+  }
+  @media only screen and (max-width: 767px) {
+     
+  }
+  @media only screen and (max-width: 567px) {
+      
+  }
+  /* Responsive end  */
+

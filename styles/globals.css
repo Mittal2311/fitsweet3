@@ -14,3 +14,35 @@ a {
 * {
   box-sizing: border-box;
 }
+.container {
+  max-width: 1600px !important;
+  margin: 0 auto;
+}
+
+.desktop_nav{display: block;}
+  .mobile_nav{display: none;}
+  .offcanvas-end{width: 300px !important;}
+
+
+
+  /* Responsive start  */
+@media only screen and (max-width: 1199px) {
+ 
+}
+@media only screen and (max-width: 992px) {
+  .desktop_nav{display: none;}
+  .mobile_nav{display: block;}
+  
+}
+@media only screen and (max-width: 768px) {
+                                                                                                                            
+}
+@media only screen and (max-width: 767px) {
+  
+ 
+}
+@media only screen and (max-width: 567px) {
+ 
+  
+}
+/* Responsive end  */

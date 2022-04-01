@@ -1,0 +1,103 @@
+
+@font-face {
+    font-family: "Manrope";
+    src: local("Manrope"),
+      url("../public/font/Manrope-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+.FooterSection {
+    background: #1E1B1B;
+    width: 100%;
+    padding: 100px 0;
+}
+.FooterHeading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    max-width: 462px;
+}
+.FooterTitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.FooterContent {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin: 15px 0 !important;
+}
+.social_icon {
+    padding: 30px 0;
+    display: flex;
+}
+.FooterLink {
+    display: flex;
+}
+.FooterBottom {
+    background: #1E1B1B;
+    padding: 20px 0;
+}
+.NavLink {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 0 15px !important;
+}
+.NavLink:hover{
+    color: white !important;
+}
+.CopyLink {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #939191;
+}
+ /* Responsive start  */
+ @media only screen and (max-width: 1199px) {
+      
+}
+@media only screen and (max-width: 992px) {
+    .FooterSection{padding: 50px 0px;}
+    .FooterHeading{font-size: 37px;max-width: 336px;}
+    .NavLink {font-size: 15px;padding: 0 10px !important;}
+    
+
+}
+@media only screen and (max-width: 768px) {
+    .FooterContent {font-size: 21px;}
+    .NavLink {font-size: 14px;}
+}
+@media only screen and (max-width: 767px) {
+    .FooterSection{padding: 30px 0px; text-align: center;}
+    .FooterHeading{display: table; margin: 0 auto;font-size: 27px;}
+    .social_icon{justify-content: center;}
+    .CopyLink{font-size: 14px;}
+    .FooterBottom{text-align: center;}
+    .FooterLink{justify-content: center;
+        margin: 15px 0;}
+        .FooterContent{font-size: 19px;margin: 6px 0 !important;}
+        .FooterBottom{padding: 10px 0px;}
+}
+@media only screen and (max-width: 567px) {
+    .FooterHeading{font-size: 20px;max-width: 200px;}
+    
+}
+/* Responsive end  */
