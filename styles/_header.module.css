@@ -23,7 +23,7 @@
    font-weight: 600;
    font-size: 16px;
    line-height: 28px;
-    padding: 0 20px !important;
+   padding: 12px 22px !important;
   }
   /* .navlink:hover{
     color: white !important;
@@ -71,13 +71,12 @@
     color: #1E1B1B;
 }
 .CallImage {
-    background: #61C4A1;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    margin: 10px;
+    width: 33px;
+    height: 33px;
+    margin: 10px 18px;
+    cursor: pointer;
 }
-    
+.CloseBtn{background-color: white;}
   /* Responsive start  */
   @media only screen and (max-width: 1199px) {
       

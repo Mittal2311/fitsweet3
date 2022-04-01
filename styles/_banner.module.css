@@ -1,0 +1,130 @@
+
+@font-face {
+    font-family: "Manrope";
+    src: local("Manrope"),
+      url("../public/font/Manrope-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+.BannerSection {
+    padding: 50px 0;
+    width: 100%;
+}
+.BannerContent {
+    margin: 100px 0;
+}
+.BannerHeading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 84px;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+    margin: 15px 0 !important;
+    max-width: 624px;
+}
+.BannerImage {
+    width: 100%;
+    height: auto;
+}
+.Service {
+    position: absolute;
+    top: 7%;
+    background: linear-gradient(138.85deg, #FFFFFF -38.72%, #FFFFFF 153.95%);
+border: 12px solid rgba(225, 225, 225, 0.43);
+box-shadow: 0px 28px 118px rgba(109, 108, 115, 0.12);
+border-radius: 59px;
+}
+.CircleImg {
+    width: 50px;
+    height: 50px;
+}
+.MainCol {
+    position: relative !important;
+}
+.TimeIcon {
+    display: block;
+}
+.ServiceBtn {
+    background: #FF6433;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 26px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    color: #FFFFFF;
+    margin: 20px 0 !important;
+}
+.OpenHeading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #939191;
+}
+.OpenTime {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    color: #1E1B1B;
+    margin: 5px 0 !important;
+}
+.RatingNumber {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #000000;
+    display: block;
+}
+
+.RatingTitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+}
+.Rating {
+    position: absolute;
+    top: auto;
+    bottom: 10%;
+    left: auto;
+    right: 0%;
+    background: linear-gradient(138.85deg, #FFFFFF -38.72%, #FFFFFF 153.95%);
+    border: 12px solid rgba(225, 225, 225, 0.43);
+    box-shadow: 0px 28px 118px rgba(109, 108, 115, 0.12);
+    border-radius: 59px;
+}
+  /* Responsive start  */
+  @media only screen and (max-width: 1199px) {
+    .BannerHeading {font-size: 46px;line-height: 64px;max-width: 415px;}
+}
+@media only screen and (max-width: 992px) {
+    .BannerContent{margin: 50px 0px;}
+    .BannerHeading {font-size: 35px;line-height: 55px;max-width: 300px;}
+}
+@media only screen and (max-width: 768px) {
+                                                                                                                            
+}
+@media only screen and (max-width: 767px) {
+    .BannerSection {padding: 30px 0px;}
+    .BannerContent{text-align: center;}
+    .BannerHeading{display: table; margin: 0 auto !important; text-align: center;max-width: 369px;font-size: 29px;line-height: 45px;}
+}
+@media only screen and (max-width: 567px) {
+ 
+  
+}
+/* Responsive end  */

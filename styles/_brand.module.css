@@ -1,0 +1,56 @@
+
+
+@font-face {
+    font-family: "Manrope";
+    src: local("Manrope"),
+      url("../public/font/Manrope-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+.BrandSection {
+    background: #FAFAFA;
+    padding: 100px 0;
+    width: 100%;
+}
+.LogoHeading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+}
+.LogoImage{
+    display: inline-block;
+}
+.SliderLogo {
+    padding: 50px 0;
+}
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+ 
+}
+@media only screen and (max-width: 992px) {
+
+  .LogoImage {
+    margin: 0 auto;
+}
+}
+@media only screen and (max-width: 768px) {
+                                                                                                                            
+}
+@media only screen and (max-width: 767px) {
+    
+    .LogoImage {
+      margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 567px) {
+  .LogoImage {
+    margin: 0 auto;
+}
+  
+}
+/* Responsive end  */

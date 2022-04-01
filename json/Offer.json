@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "offerImg":"images/Offer1.png",
+      "offerTitle":"Diagnostics "   
+    },
+    {
+        "id": 2,
+        "offerImg":"images/Offer2.png",
+        "offerTitle":"Engine Repair "   
+      },
+      {
+        "id": 3,
+        "offerImg":"images/Offer3.png",
+        "offerTitle":"Wheel Repair "   
+      },
+      {
+        "id": 4,
+        "offerImg":"images/Offer4.png",
+        "offerTitle":"Oil Filter "   
+      },
+      {
+        "id": 5,
+        "offerImg":"images/Offer5.png",
+        "offerTitle":"Body Work "   
+      },
+      {
+        "id": 6,
+        "offerImg":"images/Offer6.png",
+        "offerTitle":"Batteries "   
+      },
+      {
+        "id": 7,
+        "offerImg":"images/Offer7.png",
+        "offerTitle":"Insurance Claim "   
+      },
+      {
+        "id": 8,
+        "offerImg":"images/Offer8.png",
+        "offerTitle":"Custom Service "   
+      }
+  ]
+  

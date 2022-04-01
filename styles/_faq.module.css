@@ -1,0 +1,58 @@
+
+
+
+.FaqSection {
+    background: #E2E6E9;
+    padding: 100px 0;
+    width: 100%;
+}
+
+.FaqCol {
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.FaqColor {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 21px 30px;
+}
+.FaqHeading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+}
+.FaqQuestion {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+}
+.Question {
+    display: flex;
+}
+
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+    .FaqQuestion{font-size: 20px;}
+}
+@media only screen and (max-width: 992px) {
+    .FaqQuestion{font-size: 16px;}
+  
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 767px) {
+}
+@media only screen and (max-width: 567px) {
+  
+}
+/* Responsive end  */

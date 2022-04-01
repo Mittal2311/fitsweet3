@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "quoteImg":"images/Setting.png",
+     "quoteHeading":"Convenient service",
+     "quoteDescription": "Through True Rich Attended does no end it his mother since real had half every him."
+    }
+    ,
+    {
+        "id": 2,
+        "quoteImg":"images/User.png",
+       "quoteHeading":"Expert mechanics",
+       "quoteDescription": "Through True Rich Attended does no end it his mother since real had half every him."
+      },
+      {
+        "id": 3,
+        "quoteImg":"images/Doller.png",
+       "quoteHeading":"Transparent pricing",
+       "quoteDescription": "Through True Rich Attended does no end it his mother since real had half every him."
+      }
+  ]
+  

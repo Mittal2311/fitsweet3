@@ -1,0 +1,75 @@
+
+@font-face {
+    font-family: "Manrope";
+    src: local("Manrope"),
+      url("../public/font/Manrope-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+.ProcessSection {
+    padding: 100px 0;
+    width: 100%;
+}
+
+.ProcessHeading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 76px;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+    max-width: 524px;
+}
+.ProcessContent {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1E1B1B;
+    opacity: 0.6;
+    max-width: 437px;
+    margin: 20px 0 !important;
+}
+.LearnBtn {
+    background: #FF6433;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 35px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    color: #FFFFFF;
+}
+.ProcessRight {
+    display: flex;
+}
+.RightHeadings {
+    padding: 15px 11px;
+}
+.NumberIcon {
+    width: 70px;
+    height: 70px;
+}
+.ProcessTitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+}
+.ProcessCont {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    color: #1E1B1B;
+    opacity: 0.6;
+    max-width: 336px;
+    margin: 10px 0 !important;
+}

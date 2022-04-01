@@ -75,12 +75,12 @@ export const Header = () => {
                     <Navbar.Offcanvas
                       id="offcanvasNavbar"
                       aria-labelledby="offcanvasNavbarLabel"
-                      placement="end"
+                      placement="start"
                       className={style.leftmenu}
                     >
                       <Offcanvas.Header
                         closeButton
-                        className="closebtn"
+                        // className={style.CloseBtn}
                       ></Offcanvas.Header>
                       <Offcanvas.Body>
                         <Nav className="justify-content-end flex-grow-1 pe-3">

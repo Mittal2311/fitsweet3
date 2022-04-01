@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Manrope";
+    src: local("Manrope"),
+      url("../public/font/Manrope-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+.QuoteSection {
+    background: #E2E6E9;
+    padding: 100px 0;
+    width: 100%;
+}
+
+.FeatureContent {
+    display: inline-block;
+    padding: 20px 0;
+}
+.TakingSection {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 76px;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+    max-width: 583px;
+}
+.Icons {
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 20px;
+    width: 47px;
+    height: 47px;
+}
+.QuoteTitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+}
+.QuoteContent {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1E1B1B;
+    opacity: 0.6;
+    margin: 6px 0 !important;
+    max-width: 322px;
+}
+.QuoteDescription {
+    display: flex;
+}
+.QuoteLink {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    color: #1E1B1B;
+    cursor: pointer;
+    margin-left: 8%;
+}
+.QuoteLink:after{
+    content: '';
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-image: url("/images/Arrow.png");
+    background-repeat: no-repeat;
+    vertical-align: text-top;
+    margin-left: 10px;
+}
+.ServiceForm {
+    padding: 30px 0;
+}
+.ServiceHeading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+    max-width: 587px;
+}
+.FormInput {
+    width: 70%;
+    /* width: 100%; */
+    border: none;
+    margin-bottom: 5px;
+    padding: 15px 25px;
+}
+.GetBtn {
+    background: #FF6433;
+    border-radius: 12px;
+    border: none;
+    padding: 14px 29px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    color: #FFFFFF;
+    margin: 20px 0 !important;
+}
+  /* Responsive start  */
+  @media only screen and (max-width: 1199px) {
+    .TakingSection{font-size: 46px;line-height: 61px;max-width: 500px;}
+    .ServiceHeading{font-size: 40px;max-width: 400px;line-height: 124%;}
+ 
+}
+@media only screen and (max-width: 992px) {
+    .QuoteSection {padding: 50px 0px;}
+    .TakingSection{font-size: 35px;
+        line-height: 55px;
+        max-width: 300px;}
+        .ServiceHeading{font-size: 32px;}
+}
+@media only screen and (max-width: 768px) {
+                                                                                                                            
+}
+@media only screen and (max-width: 767px) {
+    .QuoteSection {padding: 30px 0px;}
+    .TakingSection ,.ServiceHeading{margin: 0 auto; font-size: 25px;
+        line-height: 37px;
+        text-align: center;}
+    .QuoteDescription{display: block; text-align: center;}
+    .QuoteLink{display: table; margin: 0 auto;}
+    .ServiceForm {text-align: center;}
+    .GetBtn{ margin: 0 auto !important;
+    display: table;}
+ 
+}
+@media only screen and (max-width: 567px) {
+ 
+  
+}
+/* Responsive end  */

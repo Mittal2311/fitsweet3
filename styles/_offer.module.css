@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Manrope";
+    src: local("Manrope"),
+      url("../public/font/Manrope-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+  .WeOffer {
+    background: #F2F2F2;
+    padding: 100px 0;
+    width: 100%;
+}
+.WeOfferHeading {
+    margin: 0 auto;
+    display: table;
+    text-align: center;
+}
+.OfferTitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+}
+.OfferHeading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 76px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+    max-width: 858px;
+    margin: 20px 0 !important;
+}
+.WeHeading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+    margin: 10px 0 !important;
+}
+.OfferCol {
+    margin: 20px 0;
+}
+.OfferContent {
+    display: inline-grid;
+    background: #FFFFFF;
+    padding: 50px 60px;
+    text-align: center;
+    width: 100%;
+    height: 232px;
+    cursor: pointer;
+}
+.OfferContent:hover{
+    background: #FF6433;
+    color: white;
+}
+.OfferIcon {
+    display: table;
+    margin: 0 auto;
+}
+.OfferContent:hover .WeHeading{
+    color: white;
+}
+.OfferContent:hover .OfferIcon{
+
+    filter: brightness(10);
+}
+.LearnBtn {
+    border: none;
+    background-color: transparent;
+    text-align: end;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    color: #1E1B1B;
+}
+.LearnBtn:after{
+    content: '';
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-image: url("/images/Arrow.png");
+    background-repeat: no-repeat;
+    vertical-align: text-top;
+    margin: 5px 10px;
+}
+
+ /* Responsive start  */
+ @media only screen and (max-width: 1199px) {
+    .OfferHeading {font-size: 40px;line-height: 50px;max-width: 700px;}
+}
+@media only screen and (max-width: 992px) {
+    .WeOffer{padding: 50px 0px;}
+    .OfferHeading{font-size: 33px;
+        line-height: 44px;
+        max-width: 500px;margin: 10px 0 !important;}
+}
+@media only screen and (max-width: 768px) {
+                                                                                                                            
+}
+@media only screen and (max-width: 767px) {
+    .WeOffer{padding: 50px 0px;}
+    .OfferHeading{font-size: 27px;
+        line-height: 38px;}
+ 
+}
+@media only screen and (max-width: 567px) {
+ 
+    .OfferContent{max-width: 323px;
+        margin: 0 auto;
+        display: table;}
+        .OfferCol {
+            margin: 10px 0;
+        }
+        .LearnBtn{text-align: center;}
+}
+/* Responsive end  */

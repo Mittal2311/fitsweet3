@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "processImg":"images/Circle1.png",
+     "processHeading":" Get a Quote",
+     "processDescription": "Through True Rich Attended does no end it his mother since real had half every him."
+    }
+    ,
+    {
+        "id": 2,
+        "processImg":"images/Circle2.png",
+       "processHeading":"Book an Appointment",
+       "processDescription": "Through True Rich Attended does no end it his mother since real had half every him."
+      },
+      {
+        "id": 3,
+        "processImg":"images/Circle3.png",
+       "processHeading":"Get your Service Done",
+       "processDescription": "Through True Rich Attended does no end it his mother since real had half every him."
+      }
+  ]
+  
