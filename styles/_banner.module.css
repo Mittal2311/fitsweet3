@@ -24,6 +24,16 @@
     margin: 15px 0 !important;
     max-width: 624px;
 }
+.Open:before{
+    content: '';
+    width: 39px;
+    height: 39px;
+    display: inline-block;
+    background-image: url("/images/Time.png");
+    background-repeat: no-repeat;
+    vertical-align: top;
+}
+
 .BannerImage {
     width: 100%;
     height: auto;
@@ -74,7 +84,7 @@ border-radius: 59px;
     font-size: 18px;
     line-height: 175%;
     color: #1E1B1B;
-    margin: 5px 0 !important;
+    margin: 5px 34px !important;
 }
 .RatingNumber {
     font-family: 'Manrope';

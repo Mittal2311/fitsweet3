@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "offerImg":"images/Offer1.png",
+      "offerTitle":"Auto Dignostics "   
+    },
+    {
+        "id": 2,
+        "offerImg":"images/Offer2.png",
+        "offerTitle":"Engine Repair "   
+      },
+      {
+        "id": 3,
+        "offerImg":"images/Offer5.png",
+        "offerTitle":"Body Work "   
+      },
+      {
+        "id": 4,
+        "offerImg":"images/Offer6.png",
+        "offerTitle":"Batteries "   
+      },
+      {
+        "id": 5,
+        "offerImg":"images/Offer1.png",
+        "offerTitle":"Car wash "   
+      },
+      {
+        "id": 6,
+        "offerImg":"images/Offer2.png",
+        "offerTitle":"AC Repair "   
+      }
+  ]
+  

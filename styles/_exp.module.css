@@ -5,34 +5,21 @@
       url("../public/font/Manrope-Regular.ttf") format("truetype");
     font-weight: normal;
   }
-
-.FaqSection {
-    background: #E2E6E9;
-    padding: 100px 0;
-    width: 100%;
+.ExperienceSection {
+    background: #F2F2F2;
+    padding: 20px 0;
 }
-
-.FaqCol {
-    text-align: center;
-    margin: 0 auto;
-    padding: 50px 0;
-}
-.FaqColor {
-    background-color: white;
-    margin-bottom: 10px;
-    padding: 21px 30px;
-}
-.FaqHeading {
+.CtaNumber {
     font-family: 'Manrope';
     font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 140%;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 76px;
     text-align: center;
     letter-spacing: -0.03em;
-    color: #1E1B1B;
+    color: #661CE7;
 }
-.FaqQuestion {
+.CtaTitle {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 600;
@@ -40,29 +27,28 @@
     line-height: 36px;
     letter-spacing: -0.03em;
     color: #1E1B1B;
+    opacity: 0.7;
 }
-.Question {
-    display: flex;
+.ExpCol {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 /* Responsive start  */
 @media only screen and (max-width: 1199px) {
-    .FaqQuestion{font-size: 20px;}
-    .FaqHeading{font-size: 35px;}
+    .CtaNumber {font-size: 37px;
+        line-height: 45px;}
+        .CtaTitle {font-size: 21px;}
 }
 @media only screen and (max-width: 992px) {
-    .FaqSection{padding: 50px 0px;}
-    .FaqQuestion{font-size: 16px;}
-    .FaqHeading{font-size: 25px;}
+    .CtaNumber {font-size: 28px;
+        line-height: 32px;}
+        .CtaTitle {font-size: 17px;}
 }
 @media only screen and (max-width: 768px) {
 }
 @media only screen and (max-width: 767px) {
-    .FaqSection{padding: 30px 0px;}
-    .FaqQuestion{font-size: 16px;}
 }
 @media only screen and (max-width: 567px) {
-    .FaqHeading{font-size: 19px;}
-  
 }
 /* Responsive end  */

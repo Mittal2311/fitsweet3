@@ -1,0 +1,76 @@
+
+
+.CtaSection {
+    position: relative;
+    width: 100%;
+}
+.CtaImages{
+    display: flex;
+}
+.CtaContent {
+    position: absolute;
+    top: 0;
+    background: #FF6433;
+    padding: 6% 3%;
+    height: 502px;
+    left: 20%;
+    bottom: auto;
+    max-width: 729px;
+}
+.CarImage {
+    width: 100%;
+    height: 502px;
+}
+.CtaImg {
+    width: 100%;
+    height: 502px;
+}
+/* .CtaImages:after{
+    content: '';
+    width: 944px;
+height: 502px;
+    display: inline-block;
+    background-image: url("/images/Wire.png");
+    background-repeat: no-repeat;
+    vertical-align: text-top;
+    margin-left: 10px;
+} */
+.CtaHeading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    max-width: 569px;
+    margin: 30px 0 !important;
+}
+.ContactBtn {
+    background: #1E1B1B;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+    .CtaHeading {font-size: 35px;max-width: 400px;}
+}
+@media only screen and (max-width: 992px) {
+    .CtaContent{padding: 10% 7%;left: 7%;}
+  
+}
+@media only screen and (max-width: 768px) {
+    .CtaContent{left: 3%;}
+}
+@media only screen and (max-width: 767px) {
+    
+}
+@media only screen and (max-width: 567px) {
+    .CtaHeading{font-size: 27px;max-width: 298px;}
+    .CtaImages{display: inline-block;}
+    .CtaContent{max-width: 431px;}
+}
+/* Responsive end  */

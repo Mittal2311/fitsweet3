@@ -32,17 +32,17 @@ export const Header = () => {
                           >
                             Home
                           </Nav.Link>
-                          <Nav.Link href="About" className={style.navlink}>
+                          <Nav.Link href="" className={style.navlink}>
                             About Us
                           </Nav.Link>
 
-                          <Nav.Link href="Pricing" className={style.navlink}>
+                          <Nav.Link href="Service" className={style.navlink}>
                             Services
                           </Nav.Link>
                           <Nav.Link href="" className={style.navlink}>
                             Blog
                           </Nav.Link>
-                          <Nav.Link href="Blog" className={style.navlink}>
+                          <Nav.Link href="" className={style.navlink}>
                             Contact
                           </Nav.Link>
                           <Image src="images/Call.png" className={style.CallImage} />

@@ -1,0 +1,144 @@
+
+
+
+.RightCol {
+    background: #1E1B1B;
+}
+.BannerRow{
+    --bs-gutter-x: 0;
+}
+.ServiceContent{
+    padding: 10%;
+}
+.ServiceHeading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 84px;
+    letter-spacing: -0.03em;
+    color: #F2F2F2;
+}
+.ServiceDescription {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    max-width: 541px;
+    color: #F2F2F2;
+    margin: 30px 0 !important;
+}
+.BookBtn {
+    background: #FF6433;
+    border-radius: 12px;
+    border: none;
+    padding: 15px 23px;
+    color: white;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 175%;
+}
+.ServiceBanner {
+    display: flex;
+    padding: 50px 0;
+}
+.BannerImage {
+    width: 100%;
+}
+.ServiceAuto {
+    background: #F5F5F5;
+    padding: 50px 0;
+}
+.AutoCar {
+    width: 100%;
+}
+.AutoContent {
+    background: #FFFFFF;
+    padding: 30px;
+}
+.AutoHeading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+    margin: 10px 0 !important;
+}
+.AutoDescription {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #232536;
+    opacity: 0.6;
+    margin: 20px 0 !important;
+}
+.ServiceBtn {
+    background-color: transparent;
+    border: none;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 175%;
+color: #1E1B1B;
+}
+.ServiceBtn:after{
+    content: '';
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-image: url("/images/Arrow.png");
+    background-repeat: no-repeat;
+    vertical-align: text-top;
+    margin: 5px 9px;
+}
+.OfferContent1{
+    display: inline-grid;
+    background: #FFFFFF;
+    padding: 50px 60px;
+    text-align: center;
+    width: 100%;
+    height: 232px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.OfferContent1:hover{
+    background: #FF6433;
+    color: white;
+}
+.OfferContent1:hover .WeHeading{
+    color: white;
+}
+.OfferContent:hover .OfferIcon{
+
+    filter: brightness(10);
+}
+
+
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+    .ServiceContent{padding: 7%;}
+    .ServiceHeading {font-size: 40px;
+        line-height: 55px;}
+}
+@media only screen and (max-width: 992px) {
+    .ServiceContent{padding: 2% 10%;}
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 767px) {
+    .ServiceHeading{font-size: 30px;}
+    .RightCol {text-align: center;}
+}
+@media only screen and (max-width: 567px) {
+ 
+}
+/* Responsive end  */

@@ -4,4 +4,7 @@ export * from "./Quote";
 export * from "./Process";
 export * from "./WeOffer";
 export * from "./Question";
+export * from "./Cta";
+export * from "./Experience";
+export * from "./Testimonial";
 export * from "./Footer";

@@ -30,10 +30,12 @@
 }
 /* Responsive start  */
 @media only screen and (max-width: 1199px) {
- 
+ .LogoImage{margin: 0 auto;}
+ .LogoHeading{font-size: 35px;}
 }
 @media only screen and (max-width: 992px) {
-
+  .BrandSection{padding: 50px 0px;}
+  .LogoHeading{font-size: 29px;}
   .LogoImage {
     margin: 0 auto;
 }
@@ -42,7 +44,9 @@
                                                                                                                             
 }
 @media only screen and (max-width: 767px) {
-    
+  .BrandSection{padding: 30px 0px;}
+  .LogoHeading{font-size: 25px;}
+  .SliderLogo{padding: 30px 0px;}
     .LogoImage {
       margin: 0 auto;
   }
@@ -51,6 +55,8 @@
   .LogoImage {
     margin: 0 auto;
 }
+.LogoHeading{font-size: 20px;}
+.SliderLogo{padding: 20px 0px;}
   
 }
 /* Responsive end  */
